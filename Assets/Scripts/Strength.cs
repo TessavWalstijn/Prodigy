@@ -1,19 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Strength : MonoBehaviour
+using UnityEngine.UI;
+public class Strength
 {
-    public int startingHStrength = 50; 
-    public int currentStrength;
-
-    void Start()
+    public int startingStrength = 50;
+    public int currentStrength;  
+    
+    public Strength()
     {
+        Debug.Log("startScript");
+        currentStrength = startingStrength;
         
     }
 
-    void Update()
+    public int GiveStrength()
     {
-        
+        Debug.Log(" hello addStrength");
+        return ++this.currentStrength;
     }
 }

@@ -20,8 +20,5 @@ public class Favour : MonoBehaviour
         Debug.Log(" hello addFavour");
         
     }
-    public override void AddFav()
-    {
-        
-    }
+   
 }
