@@ -2,19 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dexterity : MonoBehaviour
+public class Dexterity
 {
     public int startingDext = 50;
     public int currentDext;
     
-    void Start()
+    public Dexterity()
     {
-        //Debug.Log("Hello");
+        currentDext = startingDext;
     }
-
-    
-    void Update()
+    public int GiveDext()
     {
-        
+        Debug.Log("hello addDext");
+        return ++this.currentDext;
     }
 }

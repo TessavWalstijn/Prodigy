@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wealth : MonoBehaviour
+public class Wealth
 {
     public int startingWealth = 50;
     public int currentWealth;
-    void Start()
+    public Wealth()
     {
-        
+        currentWealth = startingWealth;
     }
-
-    // Update is called once per frame
-    void Update()
+    public int GiveWealth()
     {
-        
+        Debug.Log("hello addWealth");
+        return ++this.currentWealth;
     }
 }
