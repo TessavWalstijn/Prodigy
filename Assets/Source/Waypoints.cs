@@ -26,8 +26,6 @@ public class Waypoints : MonoBehaviour
         _connections[7] = new int[] { 7, 4, 8 };
         _connections[8] = new int[] { 8, 6, 7, 9 };
         _connections[9] = new int[] { 9 };
-
-        // this.ShowAvailbleConnections(0);
     }
 
     public int[] GetAvailbleConnections (int waypoint)

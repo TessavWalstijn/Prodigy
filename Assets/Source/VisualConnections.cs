@@ -26,6 +26,8 @@ public class VisualConnections : MonoBehaviour
             Renderer render = point.GetComponent<Renderer>();
             _matirials[i] = render.GetComponent<Material>();
         }
+
+        ShowAvailbleConnections(0);
     }
 
     public void ShowAvailbleConnections (int waypoint)
@@ -38,7 +40,7 @@ public class VisualConnections : MonoBehaviour
         }
 
         int maxConnections = connections.Length;
-        for (int i = 0; i < maxConnections; i += 1) {
+        for (int i = 1; i < maxConnections; i += 1) {
             _matirials[i].color = _open;
         }
     }
