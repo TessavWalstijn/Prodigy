@@ -1,14 +1,36 @@
 fileFormatVersion: 2
-guid: 9035646328676374aa17f0f82b8320c7
+guid: bed9b959905ddb9469bc131bed827a5e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: pCube404
+    100002: pCube405
+    100004: pCube407
+    100006: pCube408
+    100008: pCube416
+    100010: pCube443
+    100012: //RootNode
+    100014: transform10
+    100016: transform11
+    100018: transform12
+    100020: transform13
+    100022: transform14
+    400000: pCube404
+    400002: pCube405
+    400004: pCube407
+    400006: pCube408
+    400008: pCube416
+    400010: pCube443
+    400012: //RootNode
+    400014: transform10
+    400016: transform11
+    400018: transform12
+    400020: transform13
+    400022: transform14
     2100000: lambert39
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: group7
+    2300000: pCube443
+    3300000: pCube443
+    4300000: pCube443
   externalObjects:
   - first:
       type: UnityEngine:Material

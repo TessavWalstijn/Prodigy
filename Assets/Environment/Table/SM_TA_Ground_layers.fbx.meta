@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9035646328676374aa17f0f82b8320c7
+guid: fdb8b3a1eacb06b44900b82135bda393
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: lambert39
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group7
+    4300000: pCube440
   externalObjects:
   - first:
       type: UnityEngine:Material

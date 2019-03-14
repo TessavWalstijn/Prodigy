@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9035646328676374aa17f0f82b8320c7
+guid: 7eab20e13fcec4b43a7b13750c45f040
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert39
+    2100000: atlas
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group7
+    4300000: SM_TA_Grass1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert39
+      name: atlas
     second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   materials:
     importMaterials: 1

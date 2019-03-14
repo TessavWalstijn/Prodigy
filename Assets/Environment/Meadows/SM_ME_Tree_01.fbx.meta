@@ -3,20 +3,18 @@ guid: 2d880598a9f45964aafe9c67561d1e5f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: group4
-    100002: pCube55
-    100004: //RootNode
-    100006: Trees
-    400000: group4
-    400002: pCube55
-    400004: //RootNode
-    400006: Trees
-    2100000: Wood
-    2100002: Trees1
-    2300000: pCube55
-    3300000: pCube55
-    4300000: pCube55
-  externalObjects: {}
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert39
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: group5
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert39
+    second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
