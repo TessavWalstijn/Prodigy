@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dexterity
 {
-    public int startingDext = 50;
+    public int startingDext = 10;
     public int dextAmount = 10;
     public int currentDext;
     
@@ -12,12 +12,14 @@ public class Dexterity
     {
         currentDext = startingDext;
     }
-    public int GiveDext()
+    public int Give(int dext)
     {
-        return ++this.currentDext;
+        currentDext += dext;
+        return this.currentDext;
     }
-    public int TakeDext()
+    public int Take(int dext)
     {
-        return --this.currentDext;
+        currentDext -= dext;
+        return this.currentDext;
     }
 }

@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CharacterStats : MonoBehaviour
 {
+    [SerializeField]
+    private int StatIncrease;
+    [SerializeField]
+    private int StatDecrease;
    public Button WealthButton;
    public Button DextButton;
    public Button StrengthButton;
@@ -15,27 +19,27 @@ public class CharacterStats : MonoBehaviour
     {
         Strength myStrength = new Strength();
         Dexterity myDext = new Dexterity();
-        Wealth myWealth = new Wealth();
+        Intel myWealth = new Intel();
 
         StrengthButton.onClick.AddListener(()=>
         {
-            int StrAdd = myStrength.GiveStrength();
-            int DexTake = myDext.TakeDext();
-            Debug.Log($"Dexterity is {DexTake}");
+            int StrAdd = myStrength.Give(StatIncrease);
+            //int DexTake = myDext.Take(StatDecrease);
+            //Debug.Log($"Dexterity is {DexTake}");
             Debug.Log($"Strengh is {StrAdd}");
             StrTxt.text = "Strength" + StrAdd;
         });
         DextButton.onClick.AddListener(()=>
         {
-            int DexAdd = myDext.GiveDext();
+            int DexAdd = myDext.Give(StatIncrease);
             Debug.Log($"Dexterity is {DexAdd}");
             DexTxt.text = "Dexterity" + DexAdd;
         });
         WealthButton.onClick.AddListener(()=>
         {
-            int WltAdd = myWealth.GiveWealth();
-            Debug.Log($"Wealth is {WltAdd}");
-            WltTxt.text = "Wealth" + WltAdd;
+            int IntAdd = myWealth.GiveIntel(StatIncrease);
+            Debug.Log($"Wealth is {IntAdd}");
+            WltTxt.text = "Intel" + IntAdd;
         });
 
     }

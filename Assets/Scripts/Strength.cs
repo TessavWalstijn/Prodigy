@@ -13,12 +13,14 @@ public class Strength
         
     }
 
-    public int GiveStrength()
+    public int Give(int str)
     {
-        return ++this.currentStrength;
+        currentStrength += str;
+        return this.currentStrength;
     }
-    public int TakeStrength()
+    public int TakeStrength(int str)
     {
-        return --this.currentStrength;
+        currentStrength -= str;
+        return this.currentStrength;
     }
 }

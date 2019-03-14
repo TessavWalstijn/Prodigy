@@ -20,5 +20,4 @@ public class Favour : MonoBehaviour
         Debug.Log(" hello addFavour");
         
     }
-   
 }
