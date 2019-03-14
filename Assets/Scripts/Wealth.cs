@@ -12,7 +12,10 @@ public class Wealth
     }
     public int GiveWealth()
     {
-        Debug.Log("hello addWealth");
         return ++this.currentWealth;
+    }
+    public int TakeWwealth()
+    {
+        return --this.currentWealth;
     }
 }

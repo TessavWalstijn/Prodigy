@@ -7,6 +7,9 @@ public class CharacterStats : MonoBehaviour
    public Button WealthButton;
    public Button DextButton;
    public Button StrengthButton;
+   public Text StrTxt;
+   public Text DexTxt;
+   public Text WltTxt;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,26 +19,25 @@ public class CharacterStats : MonoBehaviour
 
         StrengthButton.onClick.AddListener(()=>
         {
-            int tmp = myStrength.GiveStrength();
-            Debug.Log($"Strengh is {tmp}");
+            int StrAdd = myStrength.GiveStrength();
+            int DexTake = myDext.TakeDext();
+            Debug.Log($"Dexterity is {DexTake}");
+            Debug.Log($"Strengh is {StrAdd}");
+            StrTxt.text = "Strength" + StrAdd;
         });
         DextButton.onClick.AddListener(()=>
         {
-            int tmp = myDext.GiveDext();
-            Debug.Log($"Dexterity is {tmp}");
+            int DexAdd = myDext.GiveDext();
+            Debug.Log($"Dexterity is {DexAdd}");
+            DexTxt.text = "Dexterity" + DexAdd;
         });
         WealthButton.onClick.AddListener(()=>
         {
-            int tmp = myWealth.GiveWealth();
-            Debug.Log($"Wealth is {tmp}");
+            int WltAdd = myWealth.GiveWealth();
+            Debug.Log($"Wealth is {WltAdd}");
+            WltTxt.text = "Wealth" + WltAdd;
         });
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
  

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Dexterity
 {
     public int startingDext = 50;
+    public int dextAmount = 10;
     public int currentDext;
     
     public Dexterity()
@@ -13,7 +14,10 @@ public class Dexterity
     }
     public int GiveDext()
     {
-        Debug.Log("hello addDext");
         return ++this.currentDext;
+    }
+    public int TakeDext()
+    {
+        return --this.currentDext;
     }
 }

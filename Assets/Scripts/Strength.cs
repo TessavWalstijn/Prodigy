@@ -9,14 +9,16 @@ public class Strength
     
     public Strength()
     {
-        Debug.Log("startScript");
         currentStrength = startingStrength;
         
     }
 
     public int GiveStrength()
     {
-        Debug.Log(" hello addStrength");
         return ++this.currentStrength;
+    }
+    public int TakeStrength()
+    {
+        return --this.currentStrength;
     }
 }
