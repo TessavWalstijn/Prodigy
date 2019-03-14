@@ -5,8 +5,9 @@ using UnityEngine.UI;
 public class Favour : MonoBehaviour
 {
     public int startingfavour = 0;
-    public int currentFavour;  
+    public int currentFavour = -5;  
     public Button FavButton;
+
     void Start()
     {
         Debug.Log("startScript");

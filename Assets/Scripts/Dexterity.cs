@@ -12,12 +12,12 @@ public class Dexterity
     {
         currentDext = startingDext;
     }
-    public int Give(int dext)
+    public int GiveDex(int dext)
     {
         currentDext += dext;
         return this.currentDext;
     }
-    public int Take(int dext)
+    public int TakeDex(int dext)
     {
         currentDext -= dext;
         return this.currentDext;

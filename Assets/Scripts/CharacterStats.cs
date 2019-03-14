@@ -19,11 +19,11 @@ public class CharacterStats : MonoBehaviour
     {
         Strength myStrength = new Strength();
         Dexterity myDext = new Dexterity();
-        Intel myWealth = new Intel();
+        Intelligence myWealth = new Intelligence();
 
         StrengthButton.onClick.AddListener(()=>
         {
-            int StrAdd = myStrength.Give(StatIncrease);
+            int StrAdd = myStrength.GiveStrength(StatIncrease);
             //int DexTake = myDext.Take(StatDecrease);
             //Debug.Log($"Dexterity is {DexTake}");
             Debug.Log($"Strengh is {StrAdd}");
@@ -31,7 +31,7 @@ public class CharacterStats : MonoBehaviour
         });
         DextButton.onClick.AddListener(()=>
         {
-            int DexAdd = myDext.Give(StatIncrease);
+            int DexAdd = myDext.GiveDex(StatIncrease);
             Debug.Log($"Dexterity is {DexAdd}");
             DexTxt.text = "Dexterity" + DexAdd;
         });

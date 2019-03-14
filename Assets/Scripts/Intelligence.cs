@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Intel
+public class Intelligence
 {
     public int startingIntel = 50;
     public int currentIntel;
-    public Intel()
+
+    public Intelligence()
     {
         currentIntel = startingIntel;
     }

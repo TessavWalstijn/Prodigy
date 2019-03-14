@@ -13,7 +13,7 @@ public class Strength
         
     }
 
-    public int Give(int str)
+    public int GiveStrength(int str)
     {
         currentStrength += str;
         return this.currentStrength;

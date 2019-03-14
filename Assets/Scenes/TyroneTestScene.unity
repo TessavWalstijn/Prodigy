@@ -311,7 +311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EDexterity
+  m_Text: EIntelligence
 --- !u!222 &283560401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 339022523}
   - component: {fileID: 339022522}
   m_Layer: 5
-  m_Name: EDexterity
+  m_Name: EIntelligence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1134101002}
-        m_MethodName: BuyEvilDexterity
+        m_MethodName: BuyEvilIntelligence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -710,14 +710,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62fb8fe0a9107d54eae9090fe0f1c8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Strength: 10
-  Dexterity: 10
-  godlyFavour: 50
-  devilishFavour: 50
-  StrengthButton: {fileID: 1266726486}
-  DexterityButton: {fileID: 0}
-  EStrengthButton: {fileID: 0}
-  EDexterityButton: {fileID: 0}
+  IntelligenceButton: {fileID: 1266726488}
+  DexterityButton: {fileID: 212756434}
+  EStrengthButton: {fileID: 2116332209}
+  EIntelligenceButton: {fileID: 339022522}
 --- !u!114 &1134101003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,7 +810,7 @@ GameObject:
   - component: {fileID: 1266726489}
   - component: {fileID: 1266726488}
   m_Layer: 5
-  m_Name: GStrength
+  m_Name: GIntelligence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +877,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1134101002}
-        m_MethodName: BuyStrength
+        m_MethodName: BuyIntelligence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1081,7 +1077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'GStrength
+  m_Text: 'GIntelligence
 
 '
 --- !u!222 &1495886431
