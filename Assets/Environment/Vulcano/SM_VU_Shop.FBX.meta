@@ -1,19 +1,87 @@
 fileFormatVersion: 2
-guid: 9035646328676374aa17f0f82b8320c7
+guid: 89d9f5495f283a44c894ce2d32716d54
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert39
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: group7
+    100000: Altar
+    100002: GroundLayer
+    100004: Pillar00
+    100006: Pillar01
+    100008: Pillar02
+    100010: Pillar03
+    100012: Pillar04
+    100014: Pillar05
+    100016: Pillar06
+    100018: Pillar07
+    100020: RocksAltar
+    100022: //RootNode
+    100024: Steps00
+    100026: Steps01
+    100028: Steps02
+    400000: Altar
+    400002: GroundLayer
+    400004: Pillar00
+    400006: Pillar01
+    400008: Pillar02
+    400010: Pillar03
+    400012: Pillar04
+    400014: Pillar05
+    400016: Pillar06
+    400018: Pillar07
+    400020: RocksAltar
+    400022: //RootNode
+    400024: Steps00
+    400026: Steps01
+    400028: Steps02
+    2100000: 'Material #1'
+    2300000: Altar
+    2300002: GroundLayer
+    2300004: Pillar00
+    2300006: Pillar01
+    2300008: Pillar02
+    2300010: Pillar03
+    2300012: Pillar04
+    2300014: Pillar05
+    2300016: Pillar06
+    2300018: Pillar07
+    2300020: RocksAltar
+    2300022: Steps00
+    2300024: Steps01
+    2300026: Steps02
+    3300000: Altar
+    3300002: GroundLayer
+    3300004: Pillar00
+    3300006: Pillar01
+    3300008: Pillar02
+    3300010: Pillar03
+    3300012: Pillar04
+    3300014: Pillar05
+    3300016: Pillar06
+    3300018: Pillar07
+    3300020: RocksAltar
+    3300022: Steps00
+    3300024: Steps01
+    3300026: Steps02
+    4300000: Altar
+    4300002: Pillar01
+    4300004: RocksAltar
+    4300006: Pillar06
+    4300008: Pillar04
+    4300010: Steps01
+    4300012: Steps02
+    4300014: Pillar05
+    4300016: Pillar02
+    4300018: Steps00
+    4300020: GroundLayer
+    4300022: Pillar03
+    4300024: Pillar00
+    4300026: Pillar07
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert39
+      name: 'Material #1'
     second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   materials:
     importMaterials: 1

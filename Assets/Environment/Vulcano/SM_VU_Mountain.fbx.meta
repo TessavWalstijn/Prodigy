@@ -1,20 +1,34 @@
 fileFormatVersion: 2
-guid: 9035646328676374aa17f0f82b8320c7
+guid: 9caa7ba19d994674781273135fe8c264
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert39
+    2100000: lambert28
+    2100002: lambert27
+    2100004: lambert26
+    2100006: lambert37
+    2100008: lambert36
+    2100010: lambert38
+    2100012: lambert23
+    2100014: lambert24
+    2100016: lambert20
+    2100018: lambert21
+    2100020: lambert19
+    2100022: lambert29
+    2100024: lambert22
+    2100026: lambert34
+    2100028: lambert32
+    2100030: lambert35
+    2100032: lambert31
+    2100034: lambert33
+    2100036: lambert30
+    2100038: lambert25
     2300000: //RootNode
     3300000: //RootNode
-    4300000: group7
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert39
-    second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
+    4300000: pCube112
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
