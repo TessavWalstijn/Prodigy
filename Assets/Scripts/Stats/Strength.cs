@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Strength
 {
-    public int startingStrength = 50;
+    public int startingStrength = 0;
     public int currentStrength;  
     
+
     public Strength()
     {
         currentStrength = startingStrength;
-        
-    }
 
+    }
+    
     public int Give(int str)
     {
         currentStrength += str;
         return this.currentStrength;
     }
-    public int TakeStrength(int str)
+    public int Take(int str)
     {
         currentStrength -= str;
         return this.currentStrength;
