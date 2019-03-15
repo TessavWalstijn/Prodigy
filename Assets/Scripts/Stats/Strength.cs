@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Strength
 {
-    public int startingStrength = 0;
+    public int startingStrength = 5;
     public int currentStrength;  
     
 

@@ -12,15 +12,16 @@ public class CharacterStats : MonoBehaviour
    public Button DextButton;
    public Button StrengthButton;
    public Image strengthImage;
-   public Text DexTxt;
-   public Text WltTxt;
+  
+  public Image DextImage;
+  public Image IntelImage;
     // Start is called before the first frame update
     void Start()
     {
         strengthImage.fillAmount = 0;
         Strength myStrength = new Strength();
         Dexterity myDext = new Dexterity();
-        Intelligence myWealth = new Intelligence();
+        Intelligence myIntel = new Intelligence();
 
         StrengthButton.onClick.AddListener(()=>
         {
@@ -30,22 +31,23 @@ public class CharacterStats : MonoBehaviour
 
             int DexTake = myDext.Take(StatDecrease);
             Debug.Log($"Dexterity is {DexTake}");
+            DextImage.fillAmount = Map((float)DexTake, 0, 10, 0, 1);
         });
         DextButton.onClick.AddListener(()=>
         {
             int DexAdd = myDext.Give(StatIncrease);
             Debug.Log($"Dexterity is {DexAdd}");
-            DexTxt.text = "Dexterity" + DexAdd;
+            DextImage.fillAmount = Map((float)DexAdd, 0, 10, 0, 1);
 
-            // int StrTake = myStrength.Give(StatDecrease);
-            // Debug.Log($"Strengh is {StrTake}");
-            // strengthImage.fillAmount = Map((float)StrTake, 0, 10, 0, 1);
+            int StrTake = myStrength.Take(StatDecrease);
+            Debug.Log($"Strengh is {StrTake}");
+            strengthImage.fillAmount = Map((float)StrTake, 0, 10, 0, 1);
         });
         WealthButton.onClick.AddListener(()=>
         {
-            int IntAdd = myWealth.GiveIntel(StatIncrease);
+            int IntAdd = myIntel.Give(StatIncrease);
             Debug.Log($"Wealth is {Map(IntAdd, 0, 10, 0, 1)}");
-            WltTxt.text = "Intel" + IntAdd;
+            IntelImage.fillAmount = Map((float)IntAdd, 0, 10, 0, 1);
         });
 
     }
