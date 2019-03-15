@@ -6,10 +6,16 @@ public class VisualConnections : MonoBehaviour
 {
     
     [SerializeField]
+    private int _point;
+
+    [SerializeField]
     private Color _open;
 
     [SerializeField]
     private Color _closed;
+
+    [SerializeField]
+    private Color _current;
 
     private Waypoints _waypoints;
     private Material[] _matirials = new Material[10];
@@ -23,15 +29,18 @@ public class VisualConnections : MonoBehaviour
         int maxWaypoints = waypoints.Length;
         for (int i = 0; i < maxWaypoints; i += 1) {
             GameObject point = waypoints[i];
-            Renderer render = point.GetComponent<Renderer>();
-            _matirials[i] = render.GetComponent<Material>();
+            _matirials[i] = point.GetComponent<Renderer>().material;
         }
+    }
 
-        ShowAvailbleConnections(0);
+    public void Update()
+    {
+        ShowAvailbleConnections(_point);
     }
 
     public void ShowAvailbleConnections (int waypoint)
     {
+        // Debug.Log(waypoint);
         int[] connections = _waypoints.GetAvailbleConnections(waypoint);
 
         int maxWaypoints = _matirials.Length;
@@ -41,7 +50,9 @@ public class VisualConnections : MonoBehaviour
 
         int maxConnections = connections.Length;
         for (int i = 1; i < maxConnections; i += 1) {
-            _matirials[i].color = _open;
+            _matirials[connections[i]].color = _open;
         }
+
+        _matirials[connections[0]].color = _current;
     }
 }

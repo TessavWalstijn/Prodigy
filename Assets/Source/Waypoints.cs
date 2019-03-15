@@ -21,7 +21,7 @@ public class Waypoints : MonoBehaviour
         _connections[2] = new int[] { 2, 0, 4 };
         _connections[3] = new int[] { 3, 1, 5, 6 };
         _connections[4] = new int[] { 4, 2, 5, 7 };
-        _connections[5] = new int[] { 5, 3, 4 };
+        _connections[5] = new int[] { 5, 3, 4, 8 };
         _connections[6] = new int[] { 6, 3, 8 };
         _connections[7] = new int[] { 7, 4, 8 };
         _connections[8] = new int[] { 8, 6, 7, 9 };
