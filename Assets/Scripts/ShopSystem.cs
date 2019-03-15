@@ -26,17 +26,17 @@ public class ShopSystem : MonoBehaviour
     {
         myFavour.currentFavour -= COST;
 
-        myIntelligence.GiveIntel(1);
-        myDexterity.TakeDex(1);
+        myIntelligence.Give(1);
+        myDexterity.Take(1);
         FavourCheck();
     }
 
     public void BuyDexterity()
     {
         myFavour.currentFavour -= COST;
-        myDexterity.GiveDex(1);
+        myDexterity.Give(1);
 
-        myIntelligence.TakeIntel(1);
+        myIntelligence.Take(1);
         FavourCheck();
     }
 
@@ -44,10 +44,10 @@ public class ShopSystem : MonoBehaviour
     {
         myFavour.currentFavour += COST;
 
-        myStrength.GiveStrength(2);
+        myStrength.Give(2);
 
-        myIntelligence.TakeIntel(1);
-        myDexterity.TakeDex(1);
+        myIntelligence.Take(1);
+        myDexterity.Take(1);
         FavourCheck();
     }
 
@@ -68,10 +68,10 @@ public class ShopSystem : MonoBehaviour
     {
         myFavour.currentFavour += COST;
 
-        myIntelligence.GiveIntel(2);
+        myIntelligence.Give(2);
 
-        myStrength.TakeStrength(1);
-        myDexterity.TakeDex(1);
+        myStrength.Take(1);
+        myDexterity.Take(1);
         FavourCheck();
     }
 }
