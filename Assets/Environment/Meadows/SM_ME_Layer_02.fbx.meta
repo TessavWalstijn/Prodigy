@@ -21,8 +21,11 @@ ModelImporter:
     400014: transform9
     2100000: lambert39
     2300000: pCube442
+    2300002: //RootNode
     3300000: pCube442
+    3300002: //RootNode
     4300000: pCube442
+    4300002: pCube389
   externalObjects:
   - first:
       type: UnityEngine:Material

@@ -36,6 +36,7 @@ ModelImporter:
     400028: transform6
     400030: transform7
     2100000: lambert19
+    2100002: lambert28
     2300000: polySurface2
     3300000: polySurface2
     4300000: polySurface2
@@ -44,6 +45,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert19
+    second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert28
     second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   materials:
     importMaterials: 1
