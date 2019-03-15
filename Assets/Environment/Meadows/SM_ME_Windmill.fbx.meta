@@ -113,6 +113,7 @@ ModelImporter:
     100214: transform87
     100216: transform88
     100218: transform89
+    100220: Object001
     400000: pCube100
     400002: pCube101
     400004: pCube103
@@ -223,10 +224,16 @@ ModelImporter:
     400214: transform87
     400216: transform88
     400218: transform89
+    400220: Object001
     2100000: lambert28
     2300000: pCube131
+    2300002: Object001
+    2300004: //RootNode
     3300000: pCube131
+    3300002: Object001
+    3300004: //RootNode
     4300000: pCube131
+    4300002: Object001
   externalObjects:
   - first:
       type: UnityEngine:Material
