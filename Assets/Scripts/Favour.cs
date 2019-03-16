@@ -20,8 +20,10 @@ public class Favour : MonoBehaviour
         Debug.Log(" hello addFavour");
         
     }
-    public override void AddFav()
-    {
+
+    // ~~ Commented because it gave an error!
+    // public override void AddFav()
+    // {
         
-    }
+    // }
 }
