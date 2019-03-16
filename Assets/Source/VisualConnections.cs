@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class VisualConnections : MonoBehaviour
 {
-    
-    [SerializeField]
-    private int _point;
-
     [SerializeField]
     private Color _open;
 
     [SerializeField]
     private Color _closed;
+
+    [SerializeField]
+    private Color _move;
 
     [SerializeField]
     private Color _current;
@@ -31,11 +30,9 @@ public class VisualConnections : MonoBehaviour
             GameObject point = waypoints[i];
             _matirials[i] = point.GetComponent<Renderer>().material;
         }
-    }
 
-    public void Update()
-    {
-        ShowAvailbleConnections(_point);
+        // We know that the player starts at 0
+        ShowAvailbleConnections(0);
     }
 
     public void ShowAvailbleConnections (int waypoint)
@@ -54,5 +51,15 @@ public class VisualConnections : MonoBehaviour
         }
 
         _matirials[connections[0]].color = _current;
+    }
+
+    public void ShowMove (int pos)
+    {
+        int maxWaypoints = _matirials.Length;
+        for (int i = 0; i < maxWaypoints; i += 1) {
+            _matirials[i].color = _closed;
+        }
+
+        _matirials[pos].color = _move;
     }
 }
