@@ -28,8 +28,11 @@ ModelImporter:
     400020: transform20
     400022: transform21
     2100000: lambert39
+    2100002: 'Material #26'
     2300000: pCube445
+    2300002: //RootNode
     3300000: pCube445
+    3300002: //RootNode
     4300000: pCube445
   externalObjects:
   - first:
