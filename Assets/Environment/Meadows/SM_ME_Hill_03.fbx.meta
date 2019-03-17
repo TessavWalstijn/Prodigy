@@ -30,6 +30,7 @@ ModelImporter:
     3300000: pCube446
     3300002: //RootNode
     4300000: pCube446
+    4300002: Hill3
   externalObjects:
   - first:
       type: UnityEngine:Material
