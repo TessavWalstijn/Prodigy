@@ -123,8 +123,8 @@ MonoBehaviour:
     overrideState: 1
     value: 1.67
   saturation:
-    overrideState: 1
-    value: 29.8
+    overrideState: 0
+    value: -15
   brightness:
     overrideState: 0
     value: 0
@@ -156,8 +156,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   mixerBlueOutGreenIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 8
   mixerBlueOutBlueIn:
     overrideState: 0
     value: 100
