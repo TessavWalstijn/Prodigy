@@ -15,12 +15,12 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.495372, g: 0.8679245, b: 0.863273, a: 1}
+  m_FogColor: {r: 0.6018156, g: 0.72527385, b: 0.7924528, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.764151, g: 0.764151, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.754717, g: 0.754717, b: 0.1459594, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -50,7 +50,7 @@ LightmapSettings:
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
@@ -234,6 +234,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 5065251247233883537, guid: 59c5747d2b08af44a80b6f7eb3ec68d1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d9481ad34f54c24e9aeb463836d94f9, type: 2}
+    - target: {fileID: 5065251247233883539, guid: 59c5747d2b08af44a80b6f7eb3ec68d1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d9481ad34f54c24e9aeb463836d94f9, type: 2}
+    - target: {fileID: 5065251247233883541, guid: 59c5747d2b08af44a80b6f7eb3ec68d1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d9481ad34f54c24e9aeb463836d94f9, type: 2}
+    - target: {fileID: 5065251247233883543, guid: 59c5747d2b08af44a80b6f7eb3ec68d1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d9481ad34f54c24e9aeb463836d94f9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59c5747d2b08af44a80b6f7eb3ec68d1, type: 3}
 --- !u!1 &623419259
