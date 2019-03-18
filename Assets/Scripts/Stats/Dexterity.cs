@@ -6,7 +6,7 @@ public class Dexterity
 {
     public int startingDext = 5;
     public int currentDext;
-    
+
     public Dexterity()
     {
         currentDext = startingDext;

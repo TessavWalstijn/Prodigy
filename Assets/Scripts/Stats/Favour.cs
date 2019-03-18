@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Favour : MonoBehaviour
 {
     public int startingfavour = 0;
-    public int currentFavour;  
+    public int currentFavour;
     public Button FavButton;
     void Start()
     {
@@ -18,6 +18,6 @@ public class Favour : MonoBehaviour
     void GiveFav()
     {
         Debug.Log(" hello addFavour");
-        
+
     }
 }
