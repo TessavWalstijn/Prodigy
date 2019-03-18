@@ -1292,6 +1292,7 @@ ModelImporter:
     102572: transform675
     102574: transform676
     102576: transform677
+    102578: Object001
     400000: Paths1
     400002: polySurface10
     400004: polySurface100
@@ -2581,14 +2582,21 @@ ModelImporter:
     402572: transform675
     402574: transform676
     402576: transform677
+    402578: Object001
     2100000: lambert39
     2100002: Paths
+    2100004: 'Material #32'
     2300000: polySurface12
     2300002: polySurface458
+    2300004: //RootNode
+    2300006: Object001
     3300000: polySurface12
     3300002: polySurface458
+    3300004: //RootNode
+    3300006: Object001
     4300000: polySurface12
     4300002: polySurface458
+    4300004: Object001
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -2596,7 +2604,7 @@ ModelImporter:
       name: lambert39
     second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

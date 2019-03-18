@@ -176,9 +176,13 @@ ModelImporter:
     2100004: Ice_rock_4
     2100006: Ice_Rock_3
     2100008: Ice_Rock_Carved
+    2100010: 'Material #30'
     2300000: MAYA_Ice_Mountain1:polySurface48
+    2300002: //RootNode
     3300000: MAYA_Ice_Mountain1:polySurface48
+    3300002: //RootNode
     4300000: MAYA_Ice_Mountain1:polySurface48
+    4300002: Ice_Mountain
   externalObjects: {}
   materials:
     importMaterials: 1
