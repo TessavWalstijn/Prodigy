@@ -28,10 +28,20 @@ ModelImporter:
     400020: transform20
     400022: transform21
     2100000: lambert39
+    2100002: 'Material #26'
     2300000: pCube445
+    2300002: //RootNode
     3300000: pCube445
+    3300002: //RootNode
     4300000: pCube445
+    4300002: pCube446
+    4300004: pCube444
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #26'
+    second: {fileID: 2100000, guid: 9c7ec45e0ec032341bc23bd6da2515f3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
